@@ -1,0 +1,45 @@
+﻿---
+blocks:
+  - [ms , Miscellaneous Symbols]
+
+chars:
+  #ms - weather and astrological symbols
+  0x2600:
+    part: ms
+    name: [blacksunwithrays , sunwithrays , sun , clearweather]
+    symbol: O8|
+    alts: [0x2609 , 0x1f506]
+    mode: c?
+    tags: [weather,sun,weather/clear]
+  0x2601:
+    part: ms
+    name: [cloud,cloudyweather]
+    symbol: o88o
+    mode: c?
+    tags: [weather,cloud,weather/cloudy]
+  0x2602:
+    part: ms
+    name: [umbrella, rainyweather]
+    symbol: j^
+    alts: [0x1f302,0x1f327]
+    mode: c?
+    tags: [weather,umbrella,weather/rainy] 
+  0x2603:
+    part: ms
+    name: [snowman, snowyweather]
+    symbol: \8/
+    mode: '?'
+    tags: [weather,snowman,weater/snowy]
+  0x2604:
+    part: ms
+    name: ['comet']
+    symbol: o∈
+    mode: c?
+    tags: [weather,astrologic, comet]
+  0x2605:
+    part: ms
+    name: ['star','blackstar']
+    symbol: 5>
+    alts: [0x22c6, 0x2b51, 0x2be8 ,0x1f7c9]
+    mode: '?'
+    tags: ['star','astrologic'] 
